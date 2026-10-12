@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Création d'un nouveau programme culinaire</title>
+<style>
+(…)
+</style>
+<script src="">
+</head>
+<body>
+<div class="container">
+    <h1>Création d'un nouveau programme culinaire</h1>
+    <form>
+        <fieldset>
+            <legend>Quoi/Où/Par qui</legend>
+            <div class="form-row">
+                <label for="emission">Emission</label>
+                <select id="emission">
+                    <option>A table ! Saison 2</option>
+                </select>
+            </div>
+            <div class="form-row">
+                <label for="titre">Titre</label>
+                <input type="text" id="titre" value="Episode n°1">
+            </div>
+            <div class="form-row">
+                <label for="presentateur">Présentateur</label>
+                <select id="presentateur">
+                    <option>Ronald FASTBOUF</option>
+                </select>
+            </div>
+            <div class="form-row">
+                <label for="chroniqueurs">Chroniqueurs</label>
+                <select id="chroniqueurs">
+                    <option>Choisir les chroniqueurs</option>
+                </select>
+            </div>
+            <div class="form-row">
+                <label for="studio">Studio TV</label>
+                <select id="studio">
+                    <option>Arc de Seine Bt C</option>
+                </select>
+                <span class="info">130 places</span>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Caractéristiques</legend>
+            <div class="form-row">
+                <label for="duree">Durée en minutes</label>
+                <input class="small" type="number" id="duree" value="90">
+            </div>
+            <div class="form-row">
+                <label for="enregistrement">Date Enregistrement</label>
+                <input type="date" id="enregistrement" value="2025-03-30">
+            </div>
+            <div class="form-row">
+                <label for="diffusion">Date 1ère diffusion</label>
+                <input type="date" id="diffusion" value="2025-06-01">
+            </div>
+            <div class="form-row">
+                <label for="public">Nombre de places public</label>
+                <input class="small" type="number" id="public" value="115">
+            </div>
+            <div class="form-row">
+                <label for="vip">Nombre de places VIP</label>
+                <input class="small" type="number" id="vip" value="15">
+            </div>
+        </fieldset>
+        <fieldset id="contenu">
+            <legend>Contenus</legend>
+            <div class="form-row">
+                <label for="themes">Thèmes abordés</label>
+                <select id="themes">
+                    <option>Choisir les thèmes</option>
+                </select>
+            </div>
+            <div class="form-row">
+                <label for="recettes">Recettes présentées</label>
+                <select id="recettes">
+                    <option>Choisir les recettes</option>
+                </select>
+            </div>
+            <div class="form-row">
+                <label for="reportages">Reportages diffusés</label>
+                <select id="reportages">
+                    <option>Choisir les reportages</option>
+                </select>
+            </div>
+        </fieldset>
+<button type="button">
+    			Masquer les contenus
+</button>
+        <div class="actions">
+            <button type="submit">Valider la création</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>
+
